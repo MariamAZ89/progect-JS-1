@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  min-height: 50px;
+
+  background-color: #222f3f;
+}
+header > div {
+  padding: 8px;
+}
+.logo {
+  height: 40px;
+}
+nav > ul {
+  list-style-type: none;
+  background-color: #35475b;
+  padding: 8px;
+}
+li {
+  display: inline;
+  margin-right: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  padding-inline: 3rem;
+  padding-block: 1.5rem;
+}
+main > section > p {
+  background-color: #f46702;
+  padding-block: 6px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.hero {
+  height: 20vh;
+  background-image: url("../images/bg-image.png");
+  margin-top: 20px;
+  background-size: contain;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+h1 {
+  font-weight: 800;
+}
+h1 + p {
+  font-size: 0.8rem;
+  margin-top: 12px;
+  font-weight: 800;
+}
+body {
+  border-color: #e9edee;
+}
+.img-inline {
+  width: 24%;
+  display: inline-block;
+  margin-top: 2rem;
+}
+.img-inline img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+img {
+  height: 229px;
+}
+.img-gaming img {
+  width: 100%;
+}
+.img-gaming {
+  margin-top: 20px;
+}
+.p3 {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.p3 a {
+  color: #47a7f5;
+}
+
+footer p {
+  color: white;
+  padding-block: 12px;
+  background-color: #35475b;
+  text-align: center;
+}
+footer img {
+  height: 60px;
+}
+footer div {
+  padding-bottom: 3rem;
+
+  text-align: center;
+  padding-top: 2rem;
+  background-color: #222f3f;
+}
